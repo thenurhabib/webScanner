@@ -4,8 +4,8 @@ an open-source static template.
 
 ## Screenshots
 
-![App Screenshot](.img/ss1.png)
-![App Screenshot](.img/ss2.png)
+![App Screenshot](img/ss1.png)
+![App Screenshot](img/ss2.png)
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.nurhabib.ml/)
