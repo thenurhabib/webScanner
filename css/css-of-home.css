@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Titillium+Web:wght@600&display=swap');
+
+
+:root {
+    --bgColor    : lightblue;
+    --borderColor: black;
+}
+
+* {
+    padding         : 0;
+    margin          : 0;
+    background-color: var(--bgColor);
+    box-sizing      : border-box;
+    font-family     : 'Titillium Web', sans-serif;
+
+}
+
+.container {
+    text-align: center;
+    margin    : 0 auto;
+}
+
+.logo {
+    width     : 60px;
+    margin-top: 140px;
+
+}
+
+h3 {
+
+    font-size: 40px;
+}
+
+.subtitle {
+    font-size: 25px;
+}
+
+input {
+    width        : 650px;
+    padding      : 2px 1px;
+    background   : transparent;
+    border       : 2px solid black;
+    border-radius: 7px;
+    text-align   : center;
+    margin       : 5px;
+
+}
+
+.btn {
+    border          : 2px solid black;
+    padding         : 2px 5px;
+    text-transform  : uppercase;
+    border-radius   : 8px;
+    background-color: black;
+    color           : white;
+    font-size       : 12px;
+}
+
+.btn:hover {
+    background: rgba(0, 0, 0, 0.514);
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Titillium+Web:wght@600&display=swap');
+
+
+:root {
+    --bgColor    : lightblue;
+    --borderColor: black;
+}
+
+* {
+    padding                 : 0;
+    margin                  : 0;
+    background-color        : var(--bgColor);
+    box-sizing              : border-box;
+    font-family             : 'Raleway', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust    : 100%;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+.container {
+    text-align: center;
+    margin    : 0 auto;
+}
+
+.logo {
+    width     : 60px;
+    margin-top: 70px;
+
+}
+
+h3 {
+    margin   : 5px;
+    font-size: 40px;
+}
+
+.subtitle {
+    font-size: 25px;
+}
+
+.login-p {
+    margin-top: 35px;
+
+    font-size  : 20px;
+    font-family: sans-serif;
+}
+
+input {
+    padding      : 9px 42px;
+    margin       : 10px;
+    border       : 3px solid var(--borderColor);
+    border-radius: 7px;
+    font-size    : 17px;
+    margin-bottom: 12px;
+    background   : transparent;
+   
+}
+
+input[type=text] {
+    margin-top: 20px;
+}
+
+.login-button {
+    text-decoration : none;
+    font-family     : 'Titillium Web', sans-serif;
+    font-size       : 21px;
+    padding         : 1px 128px;
+    color           : var(--bgColor);
+    background-color: var(--borderColor);
+    border          : 3px solid var(--borderColor);
+    border-radius   : 7px;
+    position: relative;
+    left: 8px;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    left: 45px;
+}
